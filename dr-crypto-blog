@@ -1,0 +1,72 @@
+index.html
+html
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr Crypto - مدونة العملات الرقمية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">₿</span>
+                <span class="logo-text">Dr Crypto</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html" class="active">الرئيسية</a>
+                <a href="#articles">المقالات</a>
+                <a href="#">تحليلات</a>
+                <a href="#">من نحن</a>
+                <a href="#">اتصل بنا</a>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">مدونة عملات رقمية</span>
+                <h1>تعلم واستثمر في <span class="highlight">العالم الرقمي</span></h1>
+                <p>أحدث التحليلات والأخبار والنصائح في عالم العملات الرقمية والعملات المشفرة</p>
+                <div class="hero-buttons">
+                    <a href="#articles" class="btn btn-primary">ابدأ التعلم</a>
+                    <a href="#articles" class="btn btn-secondary">المقالات</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="crypto-card">
+                    <div class="card-header">
+                        <span class="coin-name">Bitcoin</span>
+                        <span class="coin-icon">₿</span>
+                    </div>
+                    <div class="card-price">$69,558</div>
+                    <div class="card-change positive">+2.45%</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="articles" class="articles">
+        <div class="container">
+            <div class="section-header">
+                <h2>أحدث المقالات</h2>
+                <p>تابع أحدث التحليلات والنصائح</p>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=400" alt="Bitcoin">
+                        <span class="article-tag">تحليل</span>
+                    </div>
+                    <div class="article-content">
+                        <div class="article-meta">
+                            <span><i class=&q…
